@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap');
+
 body {
     max-width: 1920px;
     margin: auto;
@@ -83,6 +85,8 @@ body {
     font-weight: 800;
     font-style: italic;
     max-width: 672px;
+    font-size: 1rem;
+    margin: 0 0 8px 0;
 }
 #about-me p {
     width: 80%;
@@ -95,6 +99,7 @@ body {
 }
 .gallery .nav {
     justify-content: center;
+    cursor: pointer;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -141,12 +146,12 @@ body {
     padding-block: 3em;
 }
 .quote__text {
-    font-family: Spectral;
+    font-family: 'Spectral';
     font-style: italic;
     font-weight: 300;
 }
 .quote__author {
-    font-family: Spectral;
+    font-family: 'Spectral';
     font-weight: 800;
     font-size: 22px;
 }
@@ -236,6 +241,19 @@ form textarea {
 input[type='submit'] {
     background-color: #beb45a;
     padding: 0.5em 1em;
+}
+
+.w-100 {
+    aspect-ratio: auto 80 / 37;
+    max-width: 100%;
+    height: auto;
+}
+
+#about img,
+#contact img {
+    aspect-ratio: auto 1 / 1;
+    max-width: 100%;
+    height: auto;
 }
 
 @media all and (max-width: 1180px) {
