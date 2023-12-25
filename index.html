@@ -186,7 +186,19 @@
     </section>
     <section id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.avif" alt="photographie de Nina" />
+        <!-- <img src="./assets/images/nina.avif" alt="photographie de Nina" /> -->
+        <img
+          srcset="
+            ./assets/images/nina/nina-400w.avif   400w,
+            ./assets/images/nina/nina-600w.avif   600w,
+            ./assets/images/nina/nina-800w.avif   800w,
+            ./assets/images/nina/nina-1000w.avif 1000w,
+            ./assets/images/nina/nina-1200w.avif 1200w
+          "
+          sizes="100vw"
+          src="./assets/images/nina/nina.webp"
+          alt="Nina Carducci - Photographe"
+        />
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
