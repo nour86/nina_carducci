@@ -111,6 +111,7 @@
     ></script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <!-- added  defer -->
+    <script src="./assets/lazisizes.min.js" async></script>
     <script src="./assets/maugallery.min.js" defer></script>
     <script src="./assets/scripts.min.js" defer></script>
   </head>
@@ -186,7 +187,7 @@
 
           <div class="carousel-item">
             <img
-              srcset="
+              data-srcset="
                 ./assets/images/slider/250px/nicholas-green-nPz8akkUmDI-unsplash-250px.webp    250w,
                 ./assets/images/slider/400px/nicholas-green-nPz8akkUmDI-unsplash-400px.webp    400w,
                 ./assets/images/slider/700px/nicholas-green-nPz8akkUmDI-unsplash-700px.webp    700w,
@@ -196,13 +197,13 @@
               "
               sizes="100vw"
               src="./assets/images/slider/900px/nicholas-green-nPz8akkUmDI-unsplash-900px.webp"
-              class="d-block w-100"
+              class="d-block w-100 lazyload"
               alt="public à un concert"
             />
           </div>
           <div class="carousel-item">
             <img
-              srcset="
+              data-srcset="
                 ./assets/images/slider/250px/ryoji-iwata-wUZjnOv7t0g-unsplash-250px.webp    250w,
                 ./assets/images/slider/400px/ryoji-iwata-wUZjnOv7t0g-unsplash-400px.webp    400w,
                 ./assets/images/slider/700px/ryoji-iwata-wUZjnOv7t0g-unsplash-700px.webp    700w,
@@ -212,7 +213,7 @@
               "
               sizes="100vw"
               src="./assets/images/slider/900px/ryoji-iwata-wUZjnOv7t0g-unsplash-900px.webp"
-              class="d-block w-100"
+              class="d-block w-100 lazyload"
               alt="homme traversant la rue"
             />
           </div>
