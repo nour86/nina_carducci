@@ -1,27 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Nina Carducci - Photographe</title>
+
+    <!-- meta description -->
+    <meta name="artist" content="Nina Carducci" />
+    <meta
+      name="keywords"
+      content="shooting, photo, photographie, photographe, retouche, album, portfolio, Bastia "
+    />
     <meta
       name="description"
       content="Nina Carducci, photographe professionnelle, capture vos plus beaux moments grâce à ses services de shooting photo, de retouche et d'album photo personnalisé. Contactez-la pour des souvenirs immortels ! "
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Ajout optimisation cache-->
+    <meta http-equiv="Cache-control" content="public, max-age=31536000" />
+
+    <!-- Open Graph meta pour Facebook -->
+    <meta property="og:title" content="Nina Carducci - Photographe" />
+    <meta
+      property="og:url"
+      content="https://github.com/nour86/nina_carducci/"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/nour86/nina_carducci/blob/main/assets/images/nina/nina.webp"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio de Nina Carducci - jeune photographe professionnelle basée à Bastia."
+    />
+    <meta property="og:site_name" content="Nina Carducci" />
+    <meta property="og:type" content="website" />
+    <!-- Card meta pour Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://github.com/nour86/nina_carducci/"
+    />
+    <meta name="twitter:title" content="Nina Carducci" />
+    <meta
+      name="twitter:description"
+      content="Portfolio de Nina Carducci - jeune photographe professionnelle basée à Bastia."
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://github.com/nour86/nina_carducci/blob/main/assets/images/nina/nina.webp"
+    />
+    <!-- Epingle Pinterest -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Nina Carducci - Photographe" />
+    <meta
+      property="og:description"
+      content="Portfolio de Nina Carducci - jeune photographe professionnelle basée à Bastia."
+    />
+    <meta
+      property="og:url"
+      content="https://github.com/nour86/nina_carducci/blob/main/assets/images/nina/nina.webp"
+    />
+    <meta property="og:site_name" content="Nina Carducci" />
+    <!--Ajout de Schema.org-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "description": "Photographe professionnelle à Bastia, Haute-Corse."
+      },
+        "address": {
+        "@type": "PostalAddress",
+        "adressCountry": "FR",
+        "adressRegion": "Haute-Corse",
+        "addressLocality": "Bastia",
+        "postalCode": "20200",
+        "streetAddress": "3 Boulevard Paoli"
+        },
+        "openingHours": "Mo-Fr 10:00-19:00"
+        "telephone": "06 09 06 09 06",
+        "url": "https://github.com/nour86/nina_carducci/"
+    </script>
+
+    <!-- style -->
     <link
       rel="stylesheet"
       href="./assets/bootstrap/bootstrap.min.css"
       media="all"
     />
     <link rel="stylesheet" href="./assets/style.css" media="all" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
       media="all"
-    /> -->
-    <meta charset="UTF-8" />
+    />
+    <!-- script defer -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -33,6 +110,7 @@
     <script src="./assets/maugallery.min.js" defer></script>
     <script src="./assets/scripts.min.js" defer></script>
   </head>
+
   <body>
     <!-- <div class="top-header"> -->
     <header class="top-header">
@@ -48,7 +126,7 @@
             class="social-link"
             href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
             target="_blank"
-            ><img src="assets/images/instagram.png" alt="logo instagram"
+            ><img src="assets/images/instagram.png" alt="instagram logo"
           /></a>
         </li>
       </ul>
